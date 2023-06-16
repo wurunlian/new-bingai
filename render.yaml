@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: go-proxy-bingai
-    # oregon: frankfurt
+    name: new-bingai
+    # oregon: Inner Mongolia Education Research Center
     plan: free
     env: go
-    buildCommand: go build -ldflags="-s -w" -tags netgo -trimpath -o go-proxy-bingai main.go
-    startCommand: ./go-proxy-bingai
+    buildCommand: go build -ldflags="-s -w" -tags netgo -trimpath -o new-bingai main.go
+    startCommand: ./new-bingai
